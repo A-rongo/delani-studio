@@ -1,0 +1,7 @@
+.description{ text-align:center;
+              float:center;
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
