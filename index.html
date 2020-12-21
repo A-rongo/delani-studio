@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css"> -->
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/jquery-3.5.1.js"></script>
     <script src="./js/script.js"></script>
@@ -64,7 +65,7 @@
         </div>
         <div class="card" style="width: 18rem;">
             <img src="./images/dev_icon.png" class="development" alt="...">
-            <div class="card-body">
+            <div class="card-boy">
                 <h5 class="card-title">development</h5>
                 <p class="card-text"> constructive and inclusive social network for software developers. With you every
                     step of your journey.</p>
@@ -74,8 +75,8 @@
 
         <div class="card" style="width: 18rem;">
             <img src="./images/product_icon.png" class="product" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">product managemnent</h5>
+            <div class="card-bdy">
+                <h5 class="card-title">product management</h5>
                 <p class="card-text">roduct is an object or system made available for consumer use; <br>it is anything
                     that can be offered to a market to satisfy the desire or need of a customer. Wikipedia</p>
 
@@ -137,86 +138,131 @@
         </div>
     </div>
 
+    <form>
 
-    <div class="comment-section">
-        <img src="./images/c_image.jpg" class="d-block w-10" height="500px" alt="..."></img>
-        <form>
-            <div class="form-row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder=" name">
+            <div class="comment-section">
+                <img src="./images/c_image.jpg" class="d-block w-10" height="500px" alt="..."></img>
+
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder=" name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form control" placeholder="email">
+
+                    </div>
+
                 </div>
-                <div class="col">
-                    <input type="text" class="form control" placeholder="email">
+                <div class="container pb-cmnt-container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    <textarea placeholder="Write your comment here!"
+                                        class="pb-cmnt-textarea"></textarea>
 
-                </div>
 
-            </div>
-            <div class="container pb-cmnt-container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="panel panel-info">
-                            <div class="panel-body">
-                                <textarea placeholder="Write your comment here!" class="pb-cmnt-textarea"></textarea>
-                                <form class="form-inline">
-                                    <div class="btn-group">
-                                        <button class="btn" type="button"><span
-                                                class="fa fa-picture-o fa-lg"></span></button>
-                                        <button class="btn" type="button"><span
-                                                class="fa fa-video-camera fa-lg"></span></button>
-                                        <button class="btn" type="button"><span
-                                                class="fa fa-microphone fa-lg"></span></button>
-                                        <button class="btn" type="button"><span
-                                                class="fa fa-music fa-lg"></span></button>
-                                    </div>
-                                    <button class="btn btn-primary pull-right" type="button">Share</button>
-                                </form>
+                                    <button class="btn btn-primary pull-right" type="button">Submit</button>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <style>
+                    .pb-cmnt-container {
+                        font-family: Lato;
+                        margin-top: 100px;
+                    }
+
+                    .pb-cmnt-textarea {
+                        resize: none;
+                        padding: 20px;
+                        height: 130px;
+                        width: 100%;
+                        border: 1px solid #F2F2F2;
+                    }
+                </style>
             </div>
-            <style>
-                .pb-cmnt-container {
-                    font-family: Lato;
-                    margin-top: 100px;
-                }
+            </div>
+            </div>
+            </div>
 
-                .pb-cmnt-textarea {
-                    resize: none;
-                    padding: 20px;
-                    height: 130px;
-                    width: 100%;
-                    border: 1px solid #F2F2F2;
-                }
-            </style>
-    </div>
-    </div>
-    </div>
-    </div>
+            <!-- </form> 
+    <!-- Begin Mailchimp Signup Form -->
+            <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://gmail.us7.list-manage.com/subscribe/post?u=0d3e38ccdd013ddb5669b468e&amp;id=75010236ae" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="1mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="2mc-field-group">
+	<label for="mce-FNAME"> Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="3mc-field-group3">
+	<label for="mce-FNAME"> comment </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div> -->
+            <!-- <div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div> -->
+            <!-- <div class="mc-field-group size1of2">
+	<label for="mce-BIRTHDAY-month">Birthday </label>
+	<div class="datefield">
+		<span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+		<span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+		<span class="small-meta nowrap">( mm / dd )</span>
+	</div> -->
+            <!-- </div><div class="mc-field-group input-group">
+    <strong>Email Format </strong>
+    <ul><li><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
+<li><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
+</ul>
+</div> -->
+            <!-- <div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d3e38ccdd013ddb5669b468e_75010236ae" tabindex="-1" value=""></div> -->
+            <!-- <div class="clear"><input type="submit" value="Submit" name="submit" id="mc-embedded-subscribe" class="button"></div>
+    </div> 
+</form>
+</div>
 
-    </form>
+<!--End mc_embed_signup-->
 
 
-    </div>
+            </div>
 
-    <div class="container3">
-        <div class="row">
-            <img src="./images/skype.png">
-            <img src="./images/dribble.png">
-            <img src="./images/facebook.png">
-            <img src="./images/g_plus.png">
-            <img src="./images/twitterp.png">
-            <img src="./images/stumble_upon.png">
-            <img src="./images/behance.png">
-            <img src="./images/pinterest.png">
-            <img src="./images/flickr.png">
+            <div class="container3">
+                <div class="row">
+                    <img src="./images/skype.png">
+                    <img src="./images/dribble.png">
+                    <img src="./images/facebook.png">
+                    <img src="./images/g_plus.png">
+                    <img src="./images/twitterp.png">
+                    <img src="./images/stumble_upon.png">
+                    <img src="./images/behance.png">
+                    <img src="./images/pinterest.png">
+                    <img src="./images/flickr.png">
 
-        </div>
-    </div>
-    <div class="last-episode">
-        <h2>delani studio</h2>
-        <h3>2019</h3>
-    </div>
+                </div>
+            </div>
+            <div class="last-episode">
+                <h2>delani studio</h2>
+                <h3>2019</h3>
+            </div>
 
 
 
