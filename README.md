@@ -1,11 +1,12 @@
 
 # Delani-studio
 ## Description
-{this is a software of joint software developers  that enables them to create different softwares and also people are able to commet for more feedback. }
+{this is a software of joint software developers  that enables them to create different softwares and also people are able to commet for more feedback. 
+static web development page}
 ## Setup/Installation Requirements
 * to get code you fork from my github https://github.com/A-rongo/delani-studio.git
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+{none }
 ## Technologies Used
 {I used  html
 css
